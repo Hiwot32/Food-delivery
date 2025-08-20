@@ -1,0 +1,48 @@
+.outerContainer{
+    background-image: url('../../assets/hero/hero-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:130vh;
+}
+.container{
+    display:flex;
+    gap:40px;
+    width:80%;
+    margin:0 auto;
+    padding-top: 190px;
+    margin:0 auto;
+}
+.right{
+    align-items: center;
+    text-align: center;
+    color:white;
+    width:40%;
+}
+.new{
+    font-size: 100px;
+    
+}
+.onion{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.des{
+   
+    font-size: 20px ;
+}
+.order{
+    margin-top: 40px;
+    padding:20px 37px;
+    background-color: #f7be27;
+    border-radius: 8px;
+    border:none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.order:hover{
+    background:transparent;
+    border: 1px solid white;
+}

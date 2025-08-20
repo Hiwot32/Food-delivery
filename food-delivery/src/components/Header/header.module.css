@@ -1,0 +1,32 @@
+.outerSection {
+  background-color: transparent; /* transparent background */
+  position: fixed; /* optional: makes header stick to top */
+  top: 0;
+  height:18vh;
+  left: 0;
+  width: 100%;
+  /* z-index: 1000;  */
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+    margin:0 auto;
+    background: transparent;
+    
+}
+.logo{
+    margin-top: 18px;
+}
+.navLists ul{
+    list-style-type: none;
+    display:flex;
+    gap:27px;
+    margin-top: 38px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.navLists a:hover{
+    color:#f7be27;
+}
+
