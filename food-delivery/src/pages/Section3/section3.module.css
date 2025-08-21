@@ -1,0 +1,23 @@
+.outerContainer{
+    background-color: #f7be27;
+    height:400px;
+}
+.container{
+    display:flex;
+    gap:50px;
+    padding-top: 55px;
+    width:80%;
+    margin:0 auto;
+}
+.first, .second, .third{
+    text-align: center;
+}
+img{
+    margin-bottom:25px ;
+}
+.title{
+    margin-bottom: 15px;
+}
+.des{
+    font-size: 17px;
+}

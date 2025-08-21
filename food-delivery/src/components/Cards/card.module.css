@@ -1,0 +1,64 @@
+.outerContainer{
+    
+}
+.container{
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 8px;
+    width:280px;
+    overflow: hidden; 
+  position: relative;
+}
+
+.container img {
+  width: 100%;              
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.container:hover img {
+  transform: scale(1.1);    
+}
+.bottom{
+    text-align: start;
+    margin-left: 10px;
+}
+.bottom h3{
+    margin-bottom: 8px;
+}
+.bottom p{
+    width:90%;
+    font-size: 17px;
+    color:rgba(0,0,0,0.6);
+    margin-bottom: 20px;
+}
+.price{
+    padding: 8px 11px;
+    margin-bottom: 15px;
+    border-radius:6px;
+    border:none;
+    font-size:16px;
+    font-weight: bold;
+    background-color: #642f21;
+    color:#f7be27;
+    width: 17%;
+    display:inline-block;
+}
+button{
+    display: none;
+    background-color: #f7be27;
+    padding: 7px 11px;
+    border-radius:6px;
+    border:none;
+    font-size:16px;
+    font-weight: bold;
+     cursor: pointer;
+    margin-left: 50px;
+  
+    
+
+}
+.container:hover button{
+    display: inline-block;
+   
+}
+
