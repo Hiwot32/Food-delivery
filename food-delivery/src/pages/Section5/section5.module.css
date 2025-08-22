@@ -1,0 +1,33 @@
+.outerContainer{
+    background-color: #f6f9fa;
+}
+.container{
+    width:80%;
+    display:flex;
+    gap:45px;
+    margin:0 auto;
+    padding-top: 80px;
+}
+.right{
+    padding-top: 65px;
+}
+.right h1{
+    font-size: 39px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.right p{
+    font-size: 22px;
+    color: rgba(0,0,0,0.8);
+    margin-bottom: 22px;
+}
+.right ul{
+    list-style-type: circle;
+    padding-left: 20px;
+}
+.right ul li{
+    font-size: 22px;
+    color: rgba(0,0,0,0.8);
+    margin-bottom: 20px;
+    
+}

@@ -1,0 +1,7 @@
+.outerContainer{
+    background-image: url('../../assets/parallax/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height:680px;
+    background-attachment: fixed;
+}

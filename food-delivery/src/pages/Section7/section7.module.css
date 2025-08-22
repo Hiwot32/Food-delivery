@@ -1,0 +1,31 @@
+.outerContainer{
+    background-color: #f7be27;
+    height: 560px;
+}
+.container{
+    display:flex;
+    width:80%;
+    gap:40px;
+    margin:0 auto;
+    padding-top: 80px;
+}
+.left{
+    padding-top: 100px;
+    color:rgb(100,47,34)
+}
+.download{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.left h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.des{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.imgs{
+    display: flex;
+    gap:30px;
+}
