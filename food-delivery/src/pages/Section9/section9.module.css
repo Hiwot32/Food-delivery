@@ -1,0 +1,27 @@
+.container{
+    height:500px;
+    background-image: url('../../assets/footer/banner-1.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+}
+.texts{
+    padding-top: 100px;
+  
+}
+.first{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.texts h1{
+    font-size: 55px;
+    margin-bottom: 27px;
+}
+.texts p{
+    font-size: 17px;
+    width:40%;
+    margin: 0 auto;
+    
+}

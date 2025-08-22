@@ -43,7 +43,7 @@
     width: 17%;
     display:inline-block;
 }
-button{
+.btn{
     display: none;
     background-color: #f7be27;
     padding: 7px 11px;

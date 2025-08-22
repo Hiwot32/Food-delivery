@@ -13,7 +13,7 @@ function Card({image, title, description, price}) {
             <p>{description}</p>
             <div className={style.btns}>
             <div className={style.price}>${price}</div>
-            <button><ShoppingBagOutlinedIcon style={{ fontSize: "17px", paddingRight:"5px" }}/>Add To Cart</button>
+            <button className={style.btn}><ShoppingBagOutlinedIcon style={{ fontSize: "17px", paddingRight:"5px" }}/>Add To Cart</button>
             </div>
         </div>
     </div>
