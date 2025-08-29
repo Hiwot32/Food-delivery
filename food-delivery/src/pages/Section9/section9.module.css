@@ -25,3 +25,17 @@
     margin: 0 auto;
     
 }
+.call{
+    margin-top: 30px;
+    padding:12px 33px;
+    font-size: 22px;
+    font-weight: bold;
+    border:none;
+    background-color: #e3000e;
+    color:white;
+}
+.call:hover{
+    background-color: transparent;
+    color:#e3000e;
+    border:1px solid #e3000e;
+}

@@ -59,6 +59,19 @@
     font-weight: bold;
     font-size: 30px;
 }
+.learnBtn{
+    margin-top: 25px;
+    padding:13px 23px;
+    background-color: #e3000e;
+    color:white;
+    border:none;
+    font-weight: bold;
+}
+.learnBtn:hover{
+    background-color: transparent;
+    border:1px solid #e3000e;
+    color:#e3000e
+}
 
 
 

@@ -1,12 +1,27 @@
 import React from 'react'
+import { useState, useEffect } from 'react';
 import style from './header.module.css'
 import logo from '../../assets/logo/logo.png'
 import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 
 function Header() {
+  const [nav, setNav] = useState(false);
+
+  useEffect(() => {
+    const changeOnScroll = () => {
+      const scrollValue = document.documentElement.scrollTop;
+      scrollValue > 100 ? setNav(true) : setNav(false);
+    };
+
+    window.addEventListener("scroll", changeOnScroll);
+
+    return () => window.removeEventListener("scroll", changeOnScroll);
+  }, []);
+
+   
   return (
     <>
-    <div className={style.outerSection}>
+    <div className={`${style.outerSection} ${nav ? style.active : ""}`}>
         <div className={style.container}>
             <div className={style.logo}>
                 <img src={logo} width={200}/>

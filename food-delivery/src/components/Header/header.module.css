@@ -5,7 +5,17 @@
   height:18vh;
   left: 0;
   width: 100%;
-  /* z-index: 1000;  */
+  z-index: 1000; 
+  transition: all 0.4s ease-in-out;
+  background: transparent;
+ 
+  
+}
+.outerSection.active {
+  background: rgba(255, 255, 255, 0.95); /* slightly transparent white */
+  backdrop-filter: blur(10px); /* adds glass-like blur */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* soft shadow */
+  padding: 10px 0; /* shrink on scroll */
 }
 .container{
     display:flex;
@@ -14,17 +24,28 @@
     margin:0 auto;
     background: transparent;
     
+    
 }
 .logo{
     margin-top: 18px;
 }
 .navLists ul{
+    
     list-style-type: none;
     display:flex;
     gap:27px;
     margin-top: 38px;
     font-size: 19px;
     font-weight: bold;
+}
+.navLists ul li a{
+    color:white;
+}
+.outerSection.active .navLists ul li a{
+    color:black;
+}
+.outerSection.active .navLists ul li a:hover{
+    color: #f7be27;
 }
 .navLists a:hover{
     color:#f7be27;

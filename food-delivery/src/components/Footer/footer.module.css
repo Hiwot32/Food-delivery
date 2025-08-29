@@ -7,6 +7,9 @@
     margin:0 auto;
 
 }
+a{
+    color:black;
+}
 .lists{
     display:flex;
     justify-content: space-between;
