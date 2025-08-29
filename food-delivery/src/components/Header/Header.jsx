@@ -29,11 +29,10 @@ function Header() {
             <div className={style.navLists}>
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Ouer Menu</a></li>
-                    <li><a href="/">Shop</a></li>
-                    <li><a href="/">Blog</a></li>
-                    <li><a href="/">Contact</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/menu">Ouer Menu</a></li>
+                    <li><a href="/shop">Shop</a></li>
+                    <li><a href="/contact">Contact</a></li>
                     <li><a href="/"><ShoppingBagOutlinedIcon /></a></li>
                 </ul>
 
